@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Fundación Mahuampi</title>
+</head>
+<body>
+    <header>
+        <img class="logos" src="/img/mahu.png" alt="logo">
+        <div id="menu">
+        
+            <ul>
+                <li><p>Fundación Mahuampi venezuela</p>
+                <p>Migrantes Venezolanos / Colombianos Retorna</p></li>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Programas</a></li>
+                <li><a href="">Noticias</a></li>
+                <li><a href="">Conocenos</a></li>
+                <li><a href="">Contacto</a></li>
+                
+            </ul>
+        </div>
+    </header>
+
+    <div class="name">
+        <form action="" class="form">
+        <h1>Registro de beneficiarios</h1>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Nombre beneficiario" autofocus required/>
+                <label class="select">Nombre </label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Apellido beneficiario" autofocus required/>
+                <label class="select">Apellido</label>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="nuevo">Seleccione tipo de documento</option>
+                    <option value="nuevo">Cedula de ciudadania</option>
+                    <option value="usado">Cedula de extrangeria</option>
+                    <option value="deteriorado">Pasaporte</option>
+                    <option value="deteriorado">Otro</option>
+                </select>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Ingrese documento" autofocus required/>
+                <label class="select">Numero de documento</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="datetime-local" name="txtdatetime" placeholder="YYYY/MM/DD"/>
+                <label class="select">Fecha de nacimiento</label>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="sexo">Seleccione sexo</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option> 
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="pasaporte">Pasaporte</option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option> 
+                </select>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="vencido">Vencido</option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option> 
+                </select>
+            </div>
+            <div class="contain">
+                <input class="input" type="number" name="txtnombre" maxlength="50" placeholder="Ingrese edad" autofocus required/>
+                <label class="select">Edad</label>
+            </div>
+            <div class="button">
+                <input type="submit" class="submitBtn" value="Realizar registro">
+            </div>
+        </form>
+    </div>
+
+    <div class="name">
+        <form action="" class="form">
+        <h1>Tabla principal</H1>
+            <div class="contain">
+                    <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Codigo del cliente" autofocus required/>
+                    <label class="select">Codigo del cliente</label>
+            </div>
+            <div class="contain">
+                    <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Tipo de identificación" autofocus required/>
+                    <label class="select">Tipo de identificación</label>
+            </div>
+            <div class="contain">
+                    <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Nombre" autofocus required/>
+                    <label class="select">Nombre</label>
+            </div>
+            <div class="contain">
+                    <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Apellidos" autofocus required/>
+                    <label class="select">Apellidos</label>
+            </div>
+            <div class="contain">
+                    <input class="input" type="datetime-local" name="txtdatetime" placeholder="YYYY/MM/DD"/>
+                    <label class="select">Fecha de nacimiento</label>
+            </div>
+            <div class="contain">
+                    <select class="estado" id="est">
+                        <option value="sexo">Sexo</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option> 
+                        <option value="otro">Otro</option>
+                    </select>
+            </div>
+            <div class="contain">
+                    <input class="input" type="number" name="txtnombre" maxlength="50" placeholder="Ingrese edad" autofocus required/>
+                    <label class="select">Edad</label>
+            </div>
+            <div class="contain">
+                    <select class="estado" id="est">
+                        <option value="pasaporte">Pasaporte</option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option> 
+                    </select>
+            </div>
+            <div class="button">
+                    <input type="submit" class="submitBtn" value="Realizar registro">
+            </div>
+        </form>
+    </div>
+
+    <div class="name">
+        <form action="" class="form">
+            <H1>Tabla de información</H1>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Numero de documento" autofocus required/>
+                <label class="select">Numero de documento</label>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="pasaporte">Tipo de documento </option>
+                    <option value="Cedula de ciudadania">Cedula de ciudadania</option>
+                    <option value="Permiso proteccion tempolar">Permiso proteccion tempolar</option>
+                    <option value="Cedula de identidad">Cedula de identidad</option>
+                    <option value="Cedula venezola">Cedula venezola</option> 
+                </select>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Correo" autofocus required/>
+                <label class="select">Correo</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="dirección" autofocus required/>
+                <label class="select">Dirección</label>
+            </div>
+            <div class="contain">
+                <input class="input"  name="txtdatetime" placeholder="Telefono 1" autofocus required/>
+                <label class="select">Telefono 1</label>
+            </div>
+            <div class="contain">
+                <input class="input"  name="txtdatetime" placeholder="Telefono 2" autofocus required/>
+                <label class="select">Telefono 2</label>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="pasaporte">Discapacidad</option>
+                    <option value="Discapacidad física">Discapacidad física</option>
+                    <option value="Discapacidad intelectual">Discapacidad intelectual</option>
+                    <option value="Discapacidad mental">Discapacidad mental</option> 
+                    <option value="Discapacidad psicosocial">Discapacidad psicosocial</option> 
+                    <option value="Discapacidad múltiple">Discapacidad múltiple</option> 
+                    <option value="Discapacidad sensorial">Discapacidad sensorial</option>
+                    <option value="Discapacidad auditiva">Discapacidad auditiva</option>
+                    <option value="Discapacidad visual">Discapacidad visual</option>
+                </select>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="200" placeholder="descripción de la Discapacidad" autofocus required/>
+                <label class="select">Descripción de la discapacidad</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Grado de instrucción" autofocus required/>
+                <label class="select">Grado de instrucción</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Area de instrucción" autofocus required/>
+                <label class="select">Area de instrucción</label>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="pasaporte">Situación migratoria</option>
+                    <option value="si">Legalizado</option>
+                    <option value="no">Indocumentado</option> 
+                </select>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="pasaporte">Tabajo</option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option> 
+                </select>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Descripción del trabajo" autofocus required/>
+                <label class="select">Descripción del trabajo</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Condición medica" autofocus required/>
+                <label class="select">Condición medica</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Cedula Venezolana" autofocus required/>
+                <label class="select">Cedula Venezolana</label>
+            </div>
+            <div class="button">
+                <input type="submit" class="submitBtn" value="Realizar registro">
+            </div>
+        </form>
+    </div>
+
+    <div class="name">
+        <form action="" class="form">
+            <H1>Dirección de trabajo</H1>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Dirección de recidencia" autofocus required/>
+                <label class="select">Dirección de recidencia</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Barrio" autofocus required/>
+                <label class="select">Barrio</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Localidad" autofocus required/>
+                <label class="select">Localidad</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Dirección de trabajo" autofocus required/>
+                <label class="select">Dirección de trabajo</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Cargo que ocupa" autofocus required/>
+                <label class="select">Cargo que ocupa</label>
+            </div>
+            <div class="contain"> 
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Tiempo en la empresa" autofocus required/>
+                <label class="select">Tiempo en la empresa</label>
+            </div>
+            <div class="button">
+                <input type="submit" class="submitBtn" value="Realizar registro">
+            </div>
+        </form>
+    </div>
+
+<div class="name">
+    <form action="" class="form">
+            <h1>Información de familiares</H1>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Nombre del familiar" autofocus required/>
+                <label class="select">Nombre del familiar</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Apellidos del familiar" autofocus required/>
+                <label class="select">Apellidos del familiar</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Dirección residencial" autofocus required/>
+                <label class="select">Dirección residencial</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Telefono 1" autofocus required/>
+                <label class="select">Telefono 1 </label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Telefono 2" autofocus required/>
+                <label class="select">Telefono 2</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Telefono 3" autofocus required/>
+                <label class="select">Telefono 3</label>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Parentesco del referido" autofocus required/>
+                <label class="select">Parentesco del referido</label>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="pasaporte">Tipo de documento </option>
+                    <option value="Cedula de ciudadania">Cedula de ciudadania</option>
+                    <option value="Permiso proteccion tempolar">Permiso proteccion tempolar</option>
+                    <option value="Cedula de identidad">Cedula de identidad</option>
+                    <option value="Cedula venezola">Cedula venezola</option> 
+                </select>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Numero de documento" autofocus required/>
+                <label class="select">Numero de documento</label>
+            </div>
+            <div class="button">
+            <input type="submit" class="submitBtn" value="Realizar registro">
+            </div>
+    </form>
+</div>
+
+<div class="name">
+    <form action="" class="form">
+        <h1>Estudio </h1>
+            <body>
+                    <div class="contain">
+                    <select class="estado" id="est">
+                        <option value="Grado(nivel de estudio)">Grado(nivel de estudio)</option>
+                        <option value="Primaria">Primaria</option>
+                        <option value="Bachiller">Bachiller</option>
+                        <option value="Tecnico">Tecnico</option>
+                        <option value="tecnologo">tecnologo</option>
+                        <option value="Universitario">Universitario</option>
+                        <option value="Posgrado">Posgrado</option>
+                        <option value="Especialización">Especialización</option>
+                        <option value="Maestría">Maestría</option>
+                        <option value="Doctorado">Doctorado</option>
+                    </select>
+                    </div>
+                    <div class="contain">
+                        <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Actualmente" autofocus required/>
+                        <label class="select">Actualmente</label>
+                    </div>
+                    <div class="button">
+                    <input type="submit" class="submitBtn" value="Realizar registro">
+                    </div>
+            </body>
+    </form>
+</div>
+</body>
+</html>
